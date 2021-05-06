@@ -51,9 +51,7 @@
            <li class="smenu">
               <a href="cConsultFichesFrais.php" title="Consultation de mes fiches de frais">Mes fiches de frais</a>
            </li>
-           <li class="smenu">
-              <a href="appAcceuil.php" title="Saisie Compte-Rendus"> Saisie Compte-Rendus  </a>
-           </li>
+
    <?php 
       }
       else if($_SESSION["numPoste"] == 1) { ?>
@@ -63,9 +61,7 @@
          <li class="smenu">
             <a href="cSuiviePaiement.php" title="Suivre Paiements Fiches de Frais"> Suivre Paiements Fiches de Frais </a>
          </li>
-         <li class="smenu">
-            <a href="cVoirComptesRendus.php" title="Voir Comptes-rendus">Voir Comptes-rendus</a>
-         </li>
+
 <?php }
           // affichage des éventuelles erreurs déjà détectées
             if ( nbErreurs($tabErreurs) > 0 ) {
